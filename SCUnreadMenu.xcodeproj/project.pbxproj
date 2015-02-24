@@ -250,9 +250,10 @@
 				ORGANIZATIONNAME = "Subjective-C";
 				TargetAttributes = {
 					A804B77718D553D500553B20 = {
-						DevelopmentTeam = 669M58K74Z;
+						DevelopmentTeam = 4E5Q3J5F8B;
 					};
 					A804B79218D553D500553B20 = {
+						DevelopmentTeam = 4E5Q3J5F8B;
 						TestTargetID = A804B77718D553D500553B20;
 					};
 				};
