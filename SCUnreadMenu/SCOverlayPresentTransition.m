@@ -17,11 +17,9 @@
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext
 {
-    UIViewController *presentingViewController = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *overlayViewController = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     
     UIView *containerView = [transitionContext containerView];
-    [containerView addSubview:presentingViewController.view];
     [containerView addSubview:overlayViewController.view];
 
     overlayViewController.view.alpha = 0.f;
